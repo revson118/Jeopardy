@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Uchen&display=swap');
+body{
+    margin: 0%;
+    padding: 0;
+    background-image: url(p4.jpg);
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Cormorant SC', serif;
+    font-size: 19px;
+}
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
+#game{
+    display: flex;
+    background-color: rgb(35,31,32);
+    opacity: 0.8;
+    border-radius: 7px;
+}
+.card{
+    width: 160px;
+    height: 120px;
+    background-color: black;
+    border-left: solid salmon 10px;
+    border-right: solid springgreen 10px;
+    border-top: solid rebeccapurple 10px;
+    border-bottom: solid palevioletred 10px;
+    text-align: center;
+    font-size: 100px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 100px;
+    border-radius: 13px;
+}
+.genre-title{
+    text-align: center;
+    font-size: 20px;
+   
+    
+}
+.correct-answer{
+    background-color: rgb(76, 206, 76);
+}
+.wrong-answer{
+    background-color: rgb(205, 53, 53);
+}
